@@ -1,0 +1,169 @@
+
+* {
+  margin: 0;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height:100vh;
+  position: relative;
+}
+
+header {
+  
+  background-color: #89c2d9;
+  width: 20vw;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  
+}
+
+.imagem-circular {
+  border-style: solid ;
+  border-color: #2c7da0; 
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+ 
+  
+}
+
+nav > ul > li > a:hover {
+ color:  black;
+ font-weight: bold; 
+}
+
+
+nav {
+  position: absolute;
+  bottom: calc(45vh - 155.602px); 
+  left: calc(10vw - 94.75px);
+  
+  
+}
+
+
+figure {
+    position: absolute;
+    top: calc(50vh - 150px); 
+    right: calc(10vw - 100px)
+}
+
+.menu {
+  padding: 0;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+
+main {
+  background-color: #eef2f4 ;
+  position: absolute;
+  width: 80vw;
+  height: 100%;
+  right: 0px;
+  
+}
+
+.dados-pessoais {
+  position: absolute;
+  top: calc(45vh - 105.5px);
+  left: calc(5vw - 10px);
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.informações {
+ 
+  font-size: 20px;
+
+  
+}
+
+span {
+  color: #89c2d9;
+}
+
+nav > ul {
+  padding: 0;
+  height: 50%;
+  list-style-type: none;
+
+}
+
+li {
+  margin: 10px;
+  font-size: 20px;
+}
+
+
+.sobre-mim {
+  position: absolute;
+  bottom: calc(50vh - 100px); 
+  left: calc(5vw - 10px);
+  font-size: 20px;
+
+}
+
+
+
+.estilo-logo {
+  width: 50px;
+  margin-right: 10px;
+  
+  
+}
+
+.redes-sociais {
+  position: absolute;
+  bottom: calc(40vh - 120px); 
+  left: calc(5vw - 15px);
+
+}
+
+h2 {
+  font-size: 50px;
+  position: absolute;
+  top: calc(45vh - 75px);
+  left: calc(5vw - 10px);
+
+}
+
+.conhecimentos {
+  position: absolute;
+  bottom: calc(40vh - 70px); 
+  left: calc(5vw - 10px);
+
+}
+
+ol {
+  list-style: lower-alpha;
+ 
+}
+
+ol > li {
+  font-size: 25px;
+  margin: 0;
+}
+
+.objetivos {
+  position: absolute;
+  bottom: calc(35vh - 55px); 
+  left: calc(5vw - 10px);
+  
+}
